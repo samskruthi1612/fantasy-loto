@@ -1,0 +1,98 @@
+.addAdminPage {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.addAdminsTitleRow {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.addAdminTextFields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.addAdminSubHeading {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+opacity: 0.9;
+/* padding-left: 8px; */
+/* padding-bottom: 16px; */
+}
+
+.adminPhoneNumberInput {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+}
+
+.adminPhoneNumberCode {
+    width: 75px;
+}
+
+.adminPhoneNumberValue {
+    width: fill-available;
+}
+
+.addAdminPicRoleConfigs {
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+}
+
+.imageSizeText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #9C9C9C;
+
+    opacity: 0.9;
+}
+
+.addAdminRoleConfigs {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.flexCheckbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.addAdminSaveRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 16px;
+    gap: 16px;
+
+    background: rgba(255, 255, 255, 1e-05);
+    border-top: 1px solid #EBEBEB;
+}

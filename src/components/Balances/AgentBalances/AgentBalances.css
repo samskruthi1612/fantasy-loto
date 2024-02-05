@@ -1,0 +1,63 @@
+.HeaderRow{
+    display: flex;
+    gap: 16px;
+    padding-bottom: 24px;
+}
+.backArrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerTitle{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.9;
+}
+.agentDetails{
+    opacity: 0.9;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+
+/*Status Formats*/
+.agentStatusText {
+    /* margin-left: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 4px;
+
+    width: 80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    border-radius: 99px;
+}
+.agentStatusTextactive{
+    /* position:relative; */
+    color: #4EB365;
+    background: rgba(78, 179, 101, 0.1);
+}
+
+.agentStatusTextinactive{
+    /* position:relative; */
+    color: #E21E1E;
+    background: rgba(226, 30, 30, 0.1);
+}

@@ -1,0 +1,19 @@
+.overlayItem {
+    width:100%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 4px;
+    color: #000000;
+
+    opacity: 0.9;
+    padding: 8px;
+}
+
+.overlayItem:hover {
+    cursor: pointer;
+    background: #EBEBEB;
+}

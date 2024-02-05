@@ -1,0 +1,49 @@
+.button {
+
+    width: 160px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    border-radius: 8px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.primary {
+    border-color: #007AFF;
+    background: #007AFF;
+    color: #FFFFFF;
+}
+
+.primary:disabled {
+    border-color: #7DB9fA;
+    background: #7DB9fA;
+    color: #FFFFFF;
+}
+
+.secondary {
+    border: 2px solid #EBEBEB;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.teritary {
+    border: #E21E1E;
+    background: #E21E1E;
+    color: #FFFFFF;
+}
+
+.teritary:disabled {
+    border: #E36D6D;
+    background: #E36D6D;
+    color: #FFFFFF;
+}

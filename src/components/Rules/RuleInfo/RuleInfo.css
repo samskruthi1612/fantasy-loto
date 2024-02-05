@@ -1,0 +1,82 @@
+.RuleInfoOverlay {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 24px;
+    gap: 10px;
+
+    position: relative;
+    width: 400px;
+    height: 100%;
+
+    background: #FBFBFB;
+}
+
+.titleRow {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoTitle {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.closeButton {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sectionTitle{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.checkboxSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 22px;
+}
+
+.checkboxDesc {
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.ruleDesc {
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.9;
+}

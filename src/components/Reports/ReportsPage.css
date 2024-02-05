@@ -1,0 +1,52 @@
+.reportsPage {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reportsTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+
+  opacity: 0.9;
+}
+
+.reportsList {
+  border-top: #ebebeb solid 1px;
+  border-left: #ebebeb solid 1px;
+  border-right: #ebebeb solid 1px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.reportListItem {
+  padding: 12px 16px;
+  border-bottom: #ebebeb solid 1px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.reportListItem:hover {
+  background-color: #eeeeee;
+}
+
+.reportListItemText {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+}
+
+.buttonImage {
+  rotate: 180deg;
+  height: 16px;
+  width: 16px;
+}

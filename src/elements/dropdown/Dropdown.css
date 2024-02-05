@@ -1,0 +1,84 @@
+.dropdown {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 16px;
+    gap: 8px;
+
+    /* width: 267px; */
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+}
+
+.dropdownError {
+    border: 2px solid #E21E1E;
+}
+
+.dropdownPlaceHolder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #9C9C9C;
+    
+    opacity: 0.9;
+}
+
+.dropdownText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+
+    /* width: 179px; */
+}
+
+.dropdownLabel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #9C9C9C;
+
+    opacity: 0.9;
+}
+
+.dropdownValue {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    height: 19px;
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.dropdownDownArrow {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdownDisabled {
+    opacity: 0.6;
+}

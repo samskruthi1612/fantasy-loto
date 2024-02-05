@@ -1,0 +1,26 @@
+.overlayOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+
+    position: absolute;
+    
+    width: 200px;
+    height: fit-content;
+    z-index: 2;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08), 0px 8px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.overlayLeft {
+    top: 40px;
+    right: 0px;
+}
+
+.overlayRight {
+    /* top: 40px; */
+    /* right: 35px; */
+}

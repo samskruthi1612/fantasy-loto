@@ -1,0 +1,39 @@
+.leftNavBarItem {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 8px;
+    background: rgba(255, 255, 255, 0.0001);
+    border-radius: 8px;
+    position: relative;
+}
+
+.leftNavBarItem:hover {
+    cursor: pointer;
+    background: #EBEBEB;
+    border-radius: 8px;
+}
+
+.lefNavBarIcon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    position: relative;
+    /* left: 16px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.9;
+}

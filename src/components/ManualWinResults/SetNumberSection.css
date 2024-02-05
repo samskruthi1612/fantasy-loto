@@ -1,0 +1,96 @@
+.setNumberOverlay {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 24px;
+
+  position: relative;
+  width: 450px;
+  height: 100%;
+
+  background: #fbfbfb;
+}
+
+.titleRow {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.numberTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.9;
+}
+
+.closeButton {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.subheading {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Inter";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #000000;
+}
+
+.gameDetails {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.timeDetails {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.attrName {
+  width: 120px;
+  margin: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #999999;
+}
+
+.attrValue {
+  margin: 0px;
+  flex: 1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.error-msg {
+  width: 100%;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #e21e1e;
+}
+
+.setNumberButton {
+  margin-top: auto;
+  width: 100%;
+}

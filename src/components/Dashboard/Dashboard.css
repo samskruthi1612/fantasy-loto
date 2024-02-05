@@ -1,0 +1,12 @@
+.dashboard {
+    /* left: 0px;
+    top: 0px; */
+    height: 100%;
+    width: -webkit-fill-available;
+    position: absolute;
+    padding: 0px;
+    background: url('../../resources/dashboard.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

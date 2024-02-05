@@ -1,0 +1,401 @@
+.adminsPage {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.adminsTitleRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.adminsTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.adminsStatsButton {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.adminsStats {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+}
+
+.adminCount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+  opacity: 0.9;
+}
+
+.statLabel {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #9c9c9c;
+  opacity: 0.9;
+}
+
+.addAdminButton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.adminsFiltersRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 1136px;
+  height: 48px;
+  /* background: #FBFBFB; */
+}
+
+.adminsFilters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 8px;
+  width: 120px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+}
+
+.adminsFiltersIcon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.adminsFiltersText {
+  width: 60px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.adminsSort {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 8px;
+  width: 125px;
+  height: 48px;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+}
+
+.adminsSortIcon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.adminsSortText {
+  width: 60px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.adminsSortOptions {
+  position: absolute;
+  /* top: 0px;
+    left: 0px; */
+}
+
+.adminsDataTableDiv {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.adminsData {
+  /* box-sizing: border-box; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  /* overflow-x: auto; */
+  /* overflow-y: none; */
+  white-space: nowrap;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+}
+
+.adminsDataRow {
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  /* identical to box height */
+  padding: 12px 16px;
+  color: #000000;
+  background: #ffffff;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.dataTitleRow {
+  font-weight: 600;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.dataLastRow {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.adminStaffDataCount {
+  text-decoration: underline;
+}
+
+.adminStaffDataCount:hover {
+  cursor: pointer;
+}
+
+.adminStatusCol {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  /* gap: 8px; */
+  align-items: center;
+}
+
+.adminStatusText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 4px;
+  width: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 99px;
+}
+
+.statusTextActive {
+  color: #4eb365;
+  background: rgba(78, 179, 101, 0.1);
+}
+
+.statusTextInactive {
+  color: #e21e1e;
+  background: rgba(226, 30, 30, 0.1);
+}
+
+.adminStatusComments {
+  width: 200px;
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  right: 0px;
+
+  padding: 8px;
+  background: #000000;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  white-space: break-spaces;
+  text-align: center;
+  color: #ffffff;
+}
+
+.adminStatusText:hover + .adminStatusComments {
+  display: block;
+}
+
+.adminMoreOptions {
+  margin-left: auto;
+}
+
+.adminMoreOptions:hover {
+  cursor: pointer;
+}
+
+.makeAdminInactive {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+  width: 400px;
+  background: #fbfbfb;
+  min-height: 100%;
+}
+
+.makeAdminInactiveTitleRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+}
+
+.makeAdminInactiveTitleTexts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 296px;
+}
+
+.makeAdminInactiveTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  color: #000000;
+  opacity: 0.9;
+}
+
+.confirmInactiveAdminText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.closeInactiveButton {
+  width: 40px;
+  height: 40px;
+
+  background: #fbfbfb;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminInactiveReason {
+  width: 352px;
+  height: 143px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.makeInactiveButton {
+  margin-top: auto;
+  width: 100%;
+}
+.balanceManagement {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 5px;
+  align-items: center;
+}
+.adminbalance {
+  width: 75px;
+}
+.adminAmount{
+    width: 100%;
+    position: relative;
+}
+.adminbalance .textInput {
+  text-align: center;
+}
+.textInput:disabled {
+  background: #f9f9f9;
+}
+.adminAmount .textInput label{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translate(0, 23px) scale(1);
+        transform-origin: top left;
+        transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+        pointer-events: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 0px;
+        color: #9C9C9C;
+        opacity: 0.9;
+
+}
+/* .textInput{
+    position: relative;
+}
+.placeHolder{
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    transition: 0.3s;
+}
+.textInput:focus + .placeHolder{
+    top: -10px;
+
+} */
+/*
+.currencyInput:disabled{
+    /* background: #F9F9F9; */
+
+.password {
+  width: 100%;
+}

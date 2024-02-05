@@ -1,0 +1,28 @@
+.componentCommentsParent {
+    position: relative;
+}
+
+.comments {
+    width: max-content;
+    max-width: 200px;
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+
+    padding: 8px;
+    background: #000000;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.component:hover + .comments {
+    display: block;
+}

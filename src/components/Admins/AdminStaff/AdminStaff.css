@@ -1,0 +1,121 @@
+.adminStaffPage {
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.adminStaffTitleRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.adminStaffBackTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.adminStaffBackButton {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+}
+
+.adminStaffBackButton:hover {
+    cursor: pointer;
+}
+
+.adminStaffTitle {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+
+opacity: 0.9;
+/* width: fill-available; */
+}
+
+.adminsStaffBothStats {
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.adminStaffStats {
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    flex-direction: column;
+}
+
+.adminStaffCount {
+    width: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.adminStaffStatLabel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #9C9C9C;
+
+    opacity: 0.9;
+}
+
+.adminStaffStatusText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 4px;
+
+    width: 80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    border-radius: 99px;
+}
+
+.adminStaffStatusTextActive {
+    color: #4EB365;
+    background: rgba(78, 179, 101, 0.1);
+}
+
+.adminStaffStatusTextInactive {
+    color: #E21E1E;
+    background: rgba(226, 30, 30, 0.1);
+}

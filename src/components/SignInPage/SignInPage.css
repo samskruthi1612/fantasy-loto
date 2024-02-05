@@ -1,0 +1,132 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: url("../../resources/sign-in-background.png"), #fbfbfb;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fantasyLotoImage {
+  aspect-ratio: 1/1;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 16px;
+  width: 600px;
+  background: #fbfbfb;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08), 0px 8px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.04em;
+  height: 74px;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.advancedOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 100%;
+  height: 20px;
+}
+
+.checkBoxLabel {
+  width: 270px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.forgotPassword {
+  width: 100%;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.link {
+  padding-top: 20px;
+  text-decoration: none;
+}
+.signIn-eye {
+    position: absolute;
+    top: 20%;
+    right: 1rem;
+    cursor: pointer;
+}
+.qtSignin {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 224px;
+  height: 65px;
+  flex-shrink: 0;
+  padding: 0 0 16px 10px;
+  z-index: 1000; /* Ensure a higher z-index */
+  align-items: self-end;
+  gap: 8px;
+  /* margin-bottom: 8px; */
+}
+.qtSignin .qtInfo {
+  font-family: Inter;
+  font-style: normal;
+  line-height: normal;
+}
+.qtSignin .qtImg {
+  z-index: 1001; /* Ensure a higher z-index than other elements */
+  width: 56px;
+  height: 55px;
+  opacity: var(--Number, 1);
+}
+
+.qtSignin .qtInfo h2 {
+  color: #565555;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.12px;
+  opacity: var(--Number, 1);
+  margin: 0;
+}
+.qtSignin .qtInfo h3 {
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.15px;
+  opacity: var(--Number, 1);
+  width: 203px;
+  margin-top: 5px;
+}

@@ -1,0 +1,107 @@
+.AddCityOverlay {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 24px;
+
+    position: relative;
+    width: 400px;
+    height: 100%;
+
+    background: #FBFBFB;
+}
+
+.titleRow {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addTitle {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.closeButton {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} 
+.AddCity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 33px 0px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* align-items: center; */
+    width: 100%;
+}
+
+.selectState {
+    box-sizing: border-box;
+    padding: 14px 16px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.9;
+    width: 100%;
+}
+.selectCountry {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 16px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.9;
+}
+.countryOption {
+    border-bottom: 1px solid #000000;
+}
+
+.addCityButton {
+    margin-top: auto;
+    width: 100%;
+}
+
+.error-msg {
+    font-size: 16px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: -8px;
+    color: #E21E1E;
+}

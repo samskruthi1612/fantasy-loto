@@ -1,0 +1,32 @@
+.statusElement {
+    width: fit-content;
+}
+
+.statusText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 4px;
+
+    /* min-width: 80px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    border-radius: 99px;
+}
+
+.active {
+    color: #4EB365;
+    background: rgba(78, 179, 101, 0.1);
+}
+
+.inactive {
+    color: #E21E1E;
+    background: rgba(226, 30, 30, 0.1);
+}

@@ -1,0 +1,148 @@
+.winNumbersPage {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.winNumbersHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.winNumbersLeft {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  align-items: center;
+
+  color: #000000;
+
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.winNumbersBackButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+}
+
+.winNumbersRight {
+  display: flex;
+  gap: 16px;
+}
+
+.numberResultsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 16px;
+
+  width: 100%;
+  height: 48px;
+}
+
+.manualResType {
+  color: #007aff;
+  font-weight: bold;
+}
+
+.filterbarRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.autoRefreshBtn {
+  background-color: #fff;
+  display: flex;
+  width: 120px;
+  height: 48px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+}
+
+.autoRefreshText {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 72px;
+  margin: 0;
+}
+
+.exportBtn {
+  display: flex;
+  width: 120px;
+  height: 48px;
+  padding: 14px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+}
+
+.exportText {
+  color: #000;
+  margin: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex: 1 0 0;
+  opacity: 0.9;
+}
+
+.autoRefreshActive {
+  border-color: #007aff;
+}
+
+.ipaddressView {
+  margin: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(0, 122, 255);
+}
+
+.ipaddresstext {
+  margin: 0;
+}
+
+.tableErrorMsg {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+justify-content: center;
+align-items: center;
+/* identical to box height */
+padding: 12px 16px;
+overflow-wrap: break-word;
+
+color: red;
+}

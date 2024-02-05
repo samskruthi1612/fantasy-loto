@@ -1,0 +1,97 @@
+.floating-label-input {
+    position: relative;
+    display: flex;
+    /* gap: 8px;
+    padding: 6px, 16px, 6px, 16px; */
+    flex-direction: column;
+    width:100%;
+    
+  }
+  
+  .floating-label-input label {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transform: translate(0, 23px) scale(1);
+    transform-origin: top left;
+    transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;   
+    pointer-events: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0px;
+    color: #9C9C9C;
+    opacity: 0.9;
+    padding-bottom: 20px;
+  }
+  
+  .floating-label-input textarea {
+    width: 100%;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    outline: none;
+    padding-top: 17px;
+  }
+  
+  .floating-label-input.focused label,
+  .floating-label-input textarea:not(:placeholder-shown) + label {
+    position: absolute;
+    /* display: flex;
+    gap: 8px;
+    padding: 6px, 16px, 6px, 16px; */
+    top: -9px;
+    left: 10px;
+    transform: translate(0, 23px) scale(0.75);
+    transform-origin: top left;
+    transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;   
+    pointer-events: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0px;
+    color: #9C9C9C;
+    opacity: 0.9;
+    padding: 5px 0px;
+    /* padding-bottom: 3px;
+    margin-bottom: 30px; */
+  }
+  .floating-label-input.error {
+    border:none;
+  }
+  .floating-label-input.error textarea {
+    border: 1.5px solid #e21e1e;
+    border-radius: 8px;
+  }
+  
+  .floating-label-input.error .error-message {
+    display: block;
+    color: #e21e1e;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: -1px;
+    margin-bottom: -15px;
+    z-index: 3;
+    margin-left: 5px;
+  }
+  
+  .error-message {
+    display: flex;
+  }
+
+  textarea.focused {
+    /* padding-top: 18px; */
+    /* padding-bottom: 2px; */
+    margin-top: 8px;
+  }
+
+  textarea:disabled {
+    background: #F9F9F9;
+}
+

@@ -1,0 +1,80 @@
+.topNavBar {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 24px;
+
+    
+    width: 100%;
+    height: 72px;
+    
+    background: #FFFFFF;
+    border-bottom: 1px solid #EBEBEB;
+
+}
+
+.appDetails {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    padding: 0px;
+    gap: 8px;
+
+    width: 192px;
+    height: fit-content;
+
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.appLogo {
+    width: 48px;
+    height: 48px;
+    padding-top: 2px;
+}
+
+.appName {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    width: 120px;
+    color: #23365F;
+    padding-top: 12px;
+}
+
+.searchUser {
+    width: 268px;
+height: 40px;
+
+background: #FBFBFB;
+border: 1px solid #EBEBEB;
+border-radius: 8px;
+padding: 14px 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* color: #9C9C9C; */
+
+opacity: 0.9;
+}
+
+.rect {
+    width: fill-available;
+    width: -moz-available;
+    height: 22px;
+
+    background: #D9D9D9;
+    opacity: 0;
+}
+.qtNav{
+    position: static;
+}

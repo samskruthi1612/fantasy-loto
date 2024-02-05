@@ -1,0 +1,92 @@
+.addStaffPage {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.addStaffsTitleRow {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.addStaffTextFields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.addStaffSubHeading {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+opacity: 0.9;
+/* padding-left: 8px;
+padding-bottom: 24px; */
+}
+
+.addStaffPicRoleConfigs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.imageSizeText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #9C9C9C;
+
+    opacity: 0.9;
+}
+
+.addStaffRoleConfigs {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.addStaffSubRoles {
+    padding-left: 34px;
+}
+
+.addStaffSubRolesError {
+    border: 2px solid #E21E1E;
+    border-radius: 8px;
+}
+
+.flexCheckbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.addStaffSaveRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 16px;
+    gap: 16px;
+
+    background: rgba(255, 255, 255, 1e-05);
+    border-top: 1px solid #EBEBEB;
+}

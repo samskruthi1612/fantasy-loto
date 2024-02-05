@@ -1,0 +1,171 @@
+.previewCardLayout {
+    width: Fixed (368px);
+    height: Hug (1,082px);
+    top: 96px;
+    left: 1048px;
+    gap: 16px
+
+}
+
+.receiptLogo {
+    height: 91px;
+    width: 91px;
+    border-radius: 7px;
+}
+
+.customiseReceiptsHeader {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+
+.customiseReceiptLayout {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.receiptTextLayout {
+    width: 70%;
+    height: 778px;
+    top: 168px;
+    left: 280px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.receipt {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.custReceiptsTextFields {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.custReceiptsButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.textarea {
+    width: 100%;
+    border: none;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.9;
+}
+
+.textarea.error {
+    border: 2px solid #E21E1E;
+}
+
+.img.error {
+    border: 2px solid #E21E1E;
+}
+
+.previewTextarea {
+    width: 100%;
+    border: none;
+    opacity: 50%;
+    white-space: pre-line;
+}
+
+.previewHeader {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.previewReceiptHeader {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.receiptPreviewSection {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    gap: 23px;
+    width: 368px;
+    padding: 16px 0;
+    top: 96px;
+    left: 1048px;
+    word-wrap: break-word;
+}
+
+.receiptTopBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:4px;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.9;
+}
+
+.receiptMiddleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    padding: 0 16px
+}
+
+.receiptBottomBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 8px;
+    padding: 0 16px
+}
+
+.previewFooter {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.9;
+}
+
+.previewThanks {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.9;
+}

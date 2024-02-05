@@ -1,0 +1,12 @@
+.MuiTiptap-FieldContainer-root{
+    height: 100%;
+}
+.MuiTiptap-RichTextContent-root{
+    height: 100%;
+}
+.MuiBox-root{
+    height: 100%;
+}
+.editor{
+    height: 150%;
+}

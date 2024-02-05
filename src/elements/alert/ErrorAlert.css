@@ -1,0 +1,42 @@
+.errorContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 20px;
+
+    background: #FBFBFB;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08), 0px 8px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    line-height: 24px;
+    
+    opacity: 0.9;
+
+}
+
+.errorIcon {
+    width: 33.33px;
+    height: 33.33px;
+}
+
+.messageContainer {
+    max-width: 400px;
+}
+
+.errorMessage {
+    display: inline;
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    white-space: initial;
+    opacity: 0.9;
+    color: #000000;
+}
+
+.toastCloseButton {
+    margin-left: auto;
+    height: 17.58px;
+    width: 17.58px;
+}

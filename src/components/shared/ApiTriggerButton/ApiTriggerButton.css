@@ -1,0 +1,46 @@
+.refreshBtnParent {
+    position: relative;
+}
+.triggerApiRefreshBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 8px;
+    isolation: isolate;
+  
+    width: 48px;
+    height: 48px;
+  
+    background: #ffffff;
+    border: 2px solid #ebebeb;
+    border-radius: 8px;
+  }
+  
+  .refreshHoverText {
+    width: max-content;
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+  
+    padding: 8px;
+    background: #000000;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  
+    color: #ffffff;
+  
+    z-index: 2;
+  }
+  
+  .triggerApiRefreshBtn:hover + .refreshHoverText {
+    display: block;
+  }
+  

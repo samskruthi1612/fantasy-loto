@@ -1,0 +1,26 @@
+.logsBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 16px;
+    gap: 8px;
+
+    width: 120px;
+    height: 48px;
+
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+}
+
+.logsText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+    opacity: 0.9;
+}

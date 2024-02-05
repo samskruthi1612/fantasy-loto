@@ -1,0 +1,234 @@
+.staffPage {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.staffTitleRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.staffTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.staffStatsButton {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 16px;
+}
+
+.staffStats {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    /* justify-content: left; */
+}
+
+.staffCount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.statLabel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #9C9C9C;
+
+    opacity: 0.9;
+}
+
+.addStaffButton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.staffStatusText {
+    /* margin-left: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 4px;
+
+    width: 80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    border-radius: 99px;
+}
+
+.staffStatusTextActive {
+    color: #4EB365;
+    background: rgba(78, 179, 101, 0.1);
+}
+
+.staffStatusTextInactive {
+    color: #E21E1E;
+    background: rgba(226, 30, 30, 0.1);
+}
+
+.staffStatusCommentsParent {
+    position: relative;
+}
+
+.staffStatusComments {
+    width: 200px;
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+
+    padding: 8px;
+    background: #000000;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    
+}
+
+.staffStatusText:hover + .staffStatusComments {
+    display: block;
+}
+
+.staffStatusMoreOptions {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    position: relative;
+}
+
+.staffMoreOptions {
+    position: relative;
+}
+
+.staffMoreOptions:hover {
+    cursor: pointer;
+}
+
+.makeStaffInactive {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+    width: 400px;
+    background: #FBFBFB;
+    min-height: 100%;
+}
+
+.makeStaffInactiveTitleRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 100%;
+}
+
+.makeStaffInactiveTitleTexts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 296px;
+}
+
+.makeStaffInactiveTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.confirmInactiveStaffText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.closeInactiveButton {
+    width: 40px;
+    height: 40px;
+
+    background: #FBFBFB;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staffInactiveReason {
+    width: 352px;
+    height: 143px;
+
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.makeInactiveButton {
+    margin-top: auto;
+    width: 100%;
+}
